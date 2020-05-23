@@ -29,7 +29,7 @@ Now that we’ve created the model, it’s time to add it to the database. To do
 -	python manage.py makemigrations 
 -	python manage.py migrate
 Your terminal output should look something like this:
-<img src ="screenshots/migrations.JPG">
+<img src ="C:\Users\system1\Desktop\md_django\myproject\datafromhtml.png">
 
 > **_NOTE:_** If you made any changes in the model you need to follow these two steps every time.
 
