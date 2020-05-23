@@ -191,3 +191,10 @@ In templates create a new html file with the name display.html
 
 output 
 ![](C:\Users\system1\Desktop\md_django\myproject/datafromhtml.png).
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
