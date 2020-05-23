@@ -4,7 +4,7 @@ Creating Django user sign up/registration, Implement it with Model Form
 ## Model Creation
 Model is a blue print for how we gonna store data (Creating the structure of tables).In other words, a model is a class which is used to contain essential fields and methods. Each model class maps to a single table in the database. Let’s Create a Register model in models.py file
 
-### models.py
+## models.py
 
 from django.db import models
 
@@ -187,4 +187,4 @@ In templates create a new html file with the name display.html
 </div>
 </body>
 </html>
-### output 
+output 
