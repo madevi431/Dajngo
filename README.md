@@ -15,7 +15,7 @@ Model is a blue print for how we gonna store data (Creating the structure of tab
 	phoneNo = models.CharField(max_length=10)
 	age = models.IntegerField(null=True)
 	gender = models.CharField(max_length=10, choices=gender_vals)
-	date_of_birth = models.DateField(null=True) '''
+	date_of_birth = models.DateField(null=True)'''
     
 Every model inherits from django.db.models.Model. Each of our model fields has a related Django field type and field options. The Register model uses four different field types—CharField, DateTimeField, TextField and EmailField.
 
