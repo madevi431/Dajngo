@@ -190,4 +190,4 @@ In templates create a new html file with the name display.html
 
 
 output 
-![datafromhtml](C:\Users\system1\Desktop\md_django\myproject/datafromhtml.png).
+![](C:\Users\system1\Desktop\md_django\myproject/datafromhtml.png).
