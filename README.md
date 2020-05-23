@@ -5,19 +5,18 @@ Creating Django user sign up/registration, Implement it with Model Form
 Model is a blue print for how we gonna store data (Creating the structure of tables).In other words, a model is a class which is used to contain essential fields and methods. Each model class maps to a single table in the database. Let’s Create a Register model in models.py file
 
 ## models.py
+'''python
 
-from django.db import models
-
-
- '''class Register(models.Model):
-    gender_vals = [('Male', 'Male'), ('FeMale', 'FeMale')]
-    firstName = models.CharField(max_length=100)
-    lastName = models.CharField(max_length=100)
-    emailId = models.EmailField(null=True)
-    phoneNo = models.CharField(max_length=10)
-    age = models.IntegerField(null=True)
-    gender = models.CharField(max_length=10, choices=gender_vals)
-    date_of_birth = models.DateField(null=True)'''
+	from django.db import models
+	class Register(models.Model):
+	    gender_vals = [('Male', 'Male'), ('FeMale', 'FeMale')]
+	    firstName = models.CharField(max_length=100)
+	    lastName = models.CharField(max_length=100)
+	    emailId = models.EmailField(null=True)
+	    phoneNo = models.CharField(max_length=10)
+	    age = models.IntegerField(null=True)
+	    gender = models.CharField(max_length=10, choices=gender_vals)
+	    date_of_birth = models.DateField(null=True)'''
     
 Every model inherits from django.db.models.Model. Each of our model fields has a related Django field type and field options. The Register model uses four different field types—CharField, DateTimeField, TextField and EmailField.
 
